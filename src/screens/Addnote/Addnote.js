@@ -76,7 +76,6 @@ class Addnote extends Component {
                         />
                     </View>
                     <View style={{ flex: 4, }}>
-
                         <TextInput
                             style={styles.inputStyles}
                             underlineColorAndroid="transparent"
@@ -88,7 +87,6 @@ class Addnote extends Component {
                             onChangeText={(content) => this.setState({ content })}
                             value={this.state.content}
                         />
-
                     </View>
                     <View style={{ backgroundColor: "white", flex: 1, marginTop: 120 }}>
                         <Text style={{ fontSize: 20 }}>CATEGORI</Text>
